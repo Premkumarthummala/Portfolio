@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#1a365d"/>
+  <g opacity="0.1">
+    <!-- Data visualization inspired patterns -->
+    <path d="M0 540 L1920 540" stroke="white" stroke-width="1"/>
+    <path d="M960 0 L960 1080" stroke="white" stroke-width="1"/>
+    
+    <!-- Abstract data points -->
+    <circle cx="480" cy="270" r="4" fill="white"/>
+    <circle cx="720" cy="405" r="4" fill="white"/>
+    <circle cx="960" cy="540" r="4" fill="white"/>
+    <circle cx="1200" cy="675" r="4" fill="white"/>
+    <circle cx="1440" cy="810" r="4" fill="white"/>
+    
+    <!-- Connection lines -->
+    <path d="M480 270 L720 405 L960 540 L1200 675 L1440 810" stroke="white" stroke-width="2"/>
+    
+    <!-- Grid pattern -->
+    <path d="M0 270 L1920 270" stroke="white" stroke-width="0.5"/>
+    <path d="M0 810 L1920 810" stroke="white" stroke-width="0.5"/>
+    <path d="M480 0 L480 1080" stroke="white" stroke-width="0.5"/>
+    <path d="M1440 0 L1440 1080" stroke="white" stroke-width="0.5"/>
+  </g>
+</svg>
