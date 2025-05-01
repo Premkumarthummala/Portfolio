@@ -1,1 +1,4 @@
 .vercel
+public/assets/us-wage-trends/us_wage_cleaned_dataset.csv
+node_modules/
+
