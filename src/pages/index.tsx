@@ -13,7 +13,7 @@ export default function Home() {
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
           </div>
-          <h1 className="banner-title">Data-Driven Insights</h1>
+          <h1 className="banner-title">Prem Kumar Thummala</h1>
           <p className="banner-subtitle">Business Intelligence & Analytics Portfolio</p>
           <p className="banner-text">Transforming complex data into actionable business strategies</p>
           <div className="banner-cta">
