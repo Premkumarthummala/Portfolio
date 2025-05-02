@@ -68,7 +68,7 @@ export default function Projects() {
               </a>
             ))}
           </div>
-          {/* Projects Overview Paragraph */}
+          {/* Projects Overview Paragraph - moved below grid */}
           <div className="projects-overview-paragraph" style={{ marginTop: '2.5rem' }}>
             <strong>Projects Overview</strong>
             <br /><br />
