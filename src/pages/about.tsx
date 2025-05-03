@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Image from 'next/image';
+import { FaChartBar, FaBrain, FaFileAlt } from 'react-icons/fa';
+import { SiPowerbi, SiPython, SiTableau, SiMicrosoftexcel } from 'react-icons/si';
 
 export default function About() {
   return (
@@ -12,7 +14,7 @@ export default function About() {
           <p style={{ color: '#e0e7ef', fontSize: '1.12rem', marginBottom: '2.1rem' }}>Transforming Data into Actionable Insights</p>
           <div style={{ margin: '0 auto 0 auto', display: 'flex', justifyContent: 'center', gap: '1.2rem' }}>
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="button cta-gradient" style={{ minWidth: 180, display: 'inline-flex', alignItems: 'center', gap: '0.5em', justifyContent: 'center', fontSize: '1.13rem', textDecoration: 'none' }}>
-              <span role="img" aria-label="Resume">📄</span>
+              <FaFileAlt style={{ marginRight: 6, verticalAlign: 'middle' }} />
               Download Resume
             </a>
             <a href="https://www.linkedin.com/in/premkumar-thummala" target="_blank" rel="noopener noreferrer" className="button cta-gradient" style={{ minWidth: 180, display: 'inline-flex', alignItems: 'center', gap: '0.5em', justifyContent: 'center', fontSize: '1.13rem', textDecoration: 'none' }}>
@@ -34,7 +36,7 @@ export default function About() {
             <h2>Skills & Expertise</h2>
             <div className="skills-grid">
               <div className="skill-category">
-                <h3>Data Analysis</h3>
+                <h3><FaChartBar style={{ color: '#00B8D9', marginRight: 6, verticalAlign: 'middle' }} /> Data Analysis</h3>
                 <ul className="about-skills-list">
                   <li>Statistical Analysis</li>
                   <li>Data Cleaning & Preparation</li>
@@ -44,17 +46,17 @@ export default function About() {
                 </ul>
               </div>
               <div className="skill-category">
-                <h3>Tools & Technologies</h3>
+                <h3><SiPowerbi style={{ color: '#F2C811', marginRight: 6, verticalAlign: 'middle' }} /> Tools & Technologies</h3>
                 <ul className="about-skills-list">
-                  <li>Python (Pandas, NumPy)</li>
-                  <li>Power BI</li>
-                  <li>Excel (Advanced)</li>
-                  <li>SQL</li>
-                  <li>Tableau</li>
+                  <li><SiPython style={{ color: '#3776AB', marginRight: 4, verticalAlign: 'middle' }} /> Python (Pandas, NumPy)</li>
+                  <li><SiPowerbi style={{ color: '#F2C811', marginRight: 4, verticalAlign: 'middle' }} /> Power BI</li>
+                  <li><SiMicrosoftexcel style={{ color: '#217346', marginRight: 4, verticalAlign: 'middle' }} /> Excel (Advanced)</li>
+                  <li><FaChartBar style={{ color: '#4479A1', marginRight: 4, verticalAlign: 'middle' }} /> SQL</li>
+                  <li><SiTableau style={{ color: '#0058a3', marginRight: 4, verticalAlign: 'middle' }} /> Tableau</li>
                 </ul>
               </div>
               <div className="skill-category">
-                <h3>Business Intelligence</h3>
+                <h3><FaBrain style={{ color: '#7E57C2', marginRight: 6, verticalAlign: 'middle' }} /> Business Intelligence</h3>
                 <ul className="about-skills-list">
                   <li>Dashboard Development</li>
                   <li>KPI Monitoring</li>
