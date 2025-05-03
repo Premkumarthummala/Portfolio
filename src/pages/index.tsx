@@ -27,7 +27,7 @@ export default function Home() {
       >
         <div style={{ flex: '0 0 auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <img
-            src="/hero-bg.jpg"
+            src="/profile.jpg"
             alt="Prem Kumar Thummala"
             style={{
               width: 180,
