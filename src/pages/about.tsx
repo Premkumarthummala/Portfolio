@@ -71,10 +71,6 @@ export default function About() {
           <h2>Certifications</h2>
           <div className="certifications-list">
             <div className="certification-item">
-              <h3>Google Data Analytics Professional Certificate</h3>
-              <p>Completed comprehensive training in data analysis, including statistical methods, data cleaning, and visualization.</p>
-            </div>
-            <div className="certification-item">
               <h3>Microsoft Power BI Data Analyst Associate</h3>
               <p>Advanced certification in creating and managing BI solutions using Power BI.</p>
             </div>

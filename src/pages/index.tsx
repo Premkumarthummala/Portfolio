@@ -231,6 +231,10 @@ export default function Home() {
               padding: 0.25em 0.7em !important;
             }
           }
+          .about-hero-section.gradient-bg {
+            margin: 16px auto 12px auto;
+            padding: 1.2rem 0.7rem;
+          }
         `}</style>
       </section>
       <main className="main-container">
